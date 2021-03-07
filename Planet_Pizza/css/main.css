@@ -1,0 +1,526 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, .row{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;  
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+.btn-header{
+    color: #ffffff; 
+    width: 100px;
+    height: 40px;
+    background-color: #000000;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+}
+
+.btn-header:hover{
+    color: #ffffff; 
+    width: 100px;
+    height: 40px;
+    background-color: #AE0000;
+    margin-right: 30px;
+    border-radius: 25px;
+}
+
+.fa-shopping-cart{
+    color: #ffffff; 
+    margin-right: 20px;
+    margin-top: 12px;
+}
+
+.fa-shopping-cart:hover{
+    color: #AE0000; 
+    margin-right: 20px;
+}
+
+.fa-facebook-square{
+    color: #ffffff;
+    margin-top: 4%; 
+    margin-left: 30%; 
+    margin-right: 20px;
+}
+
+.fa-facebook-square:hover{
+    color: #AE0000;
+    margin-top: 4%; 
+    margin-left: 30%; 
+    margin-right: 20px;
+}
+
+.fa-instagram-square{
+    color: #ffffff; 
+    margin-right: 20px;
+}
+
+.fa-instagram-square:hover{
+    color: #AE0000; 
+    margin-right: 20px;
+}
+
+.fa-twitter-square{
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.fa-twitter-square:hover{
+    color: #AE0000;
+    margin-right: 20px;
+}
+
+.fa-whatsapp-square{
+    color: #ffffff;
+}
+
+.fa-whatsapp-square:hover{
+    color: #AE0000;
+}
+
+footer{
+    height: 100px;
+    background-color: #000000;
+    color: #ffffff;
+    }
+
+.well{
+    margin-top: 5px;
+}
+
+.copyright{
+    font-size: 12px; 
+    margin-top: 6%; 
+    margin-left: 40%;
+  }
+
+.slider{
+    height: 800px;
+    width: 100%;
+    background-color: #4b4b4b;
+}
+
+.menu{
+    min-height: 800px;
+    width: 100%;
+    background-color:  #010101;   
+}
+
+.pizza-1{
+    height: 800px;
+    width: 100%;
+    background-color:  #010101;
+}
+.pizza-2{
+    height: 800px;
+    width: 100%;
+    background-color:  #010101;
+}
+.pizza-3{
+    height: 800px;
+    width: 100%; 
+    background-color:  #010101; 
+}
+.pizza-4{
+    height: 800px;
+    width: 100%;
+    background-color:  #010101;  
+}
+
+.pizza-img{
+    background-size: cover;
+    width: 80%; 
+    height: 80%;
+    margin-left: 9%;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 35px;
+    color: #ffffff;
+   text-align: center; 
+
+}
+
+h3{
+    font-size: 25px;
+    margin-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #ffffff;
+    text-align: center; 
+}
+
+.menu-title{
+    font-size: 150px;
+    color: #ffffff;
+    background-color:  #010101; 
+    float: left;
+}
+
+.pizza-customize{
+    min-height: 2000px;
+    background-color: #1B1B1B;
+    display: inline-block;
+}
+
+.red-line{
+    margin:0;
+    padding:10px;
+    background:#010101;
+    display:inline-block;
+}
+
+.red-line-pizza{
+    margin:0;
+    padding:10px;
+    background:#1B1B1B;
+    display:inline-block;
+}
+.red-line-about-us{
+    margin:0;
+    padding:10px;
+    background:#090909;
+    display:inline-block;
+}
+
+.heading-h1{
+    font-size: 50px; 
+    color: #ffffff;
+    text-align:center;
+    position:relative;
+    z-index:2;
+    margin-bottom: 20px;
+    
+}
+.heading-h1:after{
+    font-size: 50px;  
+    content:"";
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    border-top:solid 1px #AE0000;
+    z-index:-1;
+    margin-bottom: 20px;
+}
+
+.pizza-choices-container{
+    height: 200px;
+    width: 150px;
+    margin-left: 6%;
+    margin-top: 10px;
+}
+
+.icons{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background-color: #AE0000;
+    float: left;
+}
+
+.icons:hover{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+    background-color: #900404;
+    float: left;
+    border: solid 2px #ffffff;
+}
+
+.pizza-description{
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.icon-img{
+    height: 115px; 
+    width: 115px;
+    margin-top: 11%;
+    margin-left: 11%;
+}
+
+.options-showcase{
+    min-height: 300px;
+    margin-top: 75px;
+    display: inline-block;
+}
+
+.options-container{
+    min-height: 300px;
+    float: left;
+}
+
+.options-img{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+    margin-left: -20px;
+
+}
+
+.options-description{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.pizza-animation{
+    height: 1200px;
+    float: left;
+    margin-top: 200px;
+}
+
+.pizza-info{
+    height: 1200px;
+    float: left;
+    margin-top: 200px;
+}
+
+.pizza-animation-img{
+    background-image: url(../assets/animation.svg);
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    margin-left: -30px;
+}
+
+.container-info-block{
+    height: 860px;
+    width: 500px;
+    float: left;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+
+.pizza-info-block{
+    background-color:#090909;
+    height: 750px;
+    width:  100%;
+    border-radius: 50px;
+    float: left;
+
+}
+
+.pizza-description-list{
+    text-align: center;
+    color: #ffffff;
+    font-size: 36px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-pizza{
+width: 100%;
+height: 40%;
+}
+
+.item-description{
+    height: 20px;
+    float: left;
+}
+
+.price{
+    height: 20px;
+    float: left;
+}
+
+.delete-item {
+    float: left;
+
+}
+
+.fa-times-circle{
+    color: #AE0000 ;
+}
+
+.employee-discount{
+    margin-top: 250px;
+    color: #ffffff;
+    font-size: 26px;
+    margin-left: 20px;
+    float: left;  
+}
+
+#employee {
+    border-radius: 25px;
+    background-color:#090909 ;
+    border: 2px solid #ffffff;
+    padding: 20px; 
+    width: 40%;
+    height: 15px;
+    margin-left: 2%;
+    color: #ffffff;
+
+    
+}
+
+.place-order{
+    background-color:#AE0000;
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    float: left;
+    margin-top: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 5px;
+}
+
+.place-order:hover{
+    background-color:#900404;
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    float: left;
+    margin-top: 50px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 5px;
+}
+
+.about-us{
+    min-height: 500px;
+    background-color: #090909;
+    
+
+}
+
+.website-description-text{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1475px) {
+    .container-info-block{
+        height: 860px;
+        width: 450px;
+        float: left;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .container-info-block{
+        height: 860px;
+        width: 100%;
+        float: left;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+    .pizza-info{
+        height: 900px;
+        float: left;
+        margin-top: 25px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .fa-2x{
+        color: #ffffff;
+        margin-top: 4%; 
+        margin-left: 5px; 
+        margin-right: 5px;
+    }
+  }
+
+  @media only screen and (max-width: 500px) {
+    .copyright{
+        font-size: 10px; 
+        margin-top: 28px; 
+        margin-left: 43%;
+      }
+  }
+
+  @media only screen and (max-width: 482px) {
+    .container-pizza{
+        width: 100%;
+        height: 35%;
+        }
+}
+
+@media only screen and (max-width: 399px) {
+    .container-pizza{
+        width: 100%;
+        height: 32%;
+        }
+}
+
+@media only screen and (max-width: 482px) {
+    #employee {
+        border-radius: 25px;
+        background-color:#090909 ;
+        border: 2px solid #ffffff;
+        padding: 20px; 
+        width: 60%;
+        height: 15px;
+        margin-left: 2%;
+        color: #ffffff;
+    
+        
+    }
+}
+
+@media only screen and (max-width: 399px) {
+    #employee {
+        border-radius: 25px;
+        background-color:#090909 ;
+        border: 2px solid #ffffff;
+        padding: 20px; 
+        width: 80%;
+        height: 15px;
+        margin-left: 2%;
+        color: #ffffff;
+    
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.select{
+    height: 300px;
+    width: 250px;
+    background-color: #090909;
+    border-radius: 35px;
+    justify-content: center;
+    margin: auto;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

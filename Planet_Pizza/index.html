@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">   
+    <script src="https://kit.fontawesome.com/73e72f158a.js" crossorigin="anonymous"></script>  
+    <link rel="stylesheet" href="./css/main.css"> 
+   <script src="./js/index.js"></script>
+    <link rel="icon" type="svg" href="./assets/logo.svg">
+    <title>Planet Pizza</title>
+    <!--favicon-->
+</head>
+<body>
+ <div class="container-fluid">
+     <nav class="navbar sticky-top navbar-expand-lg scrolling-navbar  " style="backdrop-filter: blur(7px);background-color: rgba(0, 0, 0, 0.5); width: 100%;">
+        <a class="navbar-brand" style="color:#ffffff;"><img src="./assets/logo.svg" width="75" height="75">Planet Pizza</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"><i class="fas fa-bars" style="color:#fff; font-size:28px;"></i></span> </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#home"><button class="btn btn-header" type="button" >Earth</button></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#order"><button class="btn btn-header" type="button" >Order</button></a>
+                        </li>
+                          <li class="nav-item">
+                            <a href="#"><i class="fas fa-shopping-cart"></i></a> 
+                          </li> 
+                      </ul>
+                    </div>
+                           
+     </nav>
+        <div id="home" class="row slider col-12"><img class="card-img-top" src="./assets/slide-1.svg" style="background-size: cover; margin-top: -100px;" ></div><!--slider--><!--needs to be workerd on still-->
+            <div id="order" class="menu-title col-12">
+                <h2 class="heading-h1"><span  class="red-line">Menu</span></h2>
+                <h2 style="font-size: 35px; margin-bottom: 25px; background-color: #010101;">Select your pizza...</h2>
+            </div><!--menu-title-->
+                <div class="choose-pizza">
+
+                </div><!--choose pizza-->
+                    <div  class="row menu col-12">
+                        <div class="pizza-1 col-xl-3 col-md-6 col-sm-12">
+                            <div class="margherita">
+                                <div class="margherita-img"><img class="pizza-img" src="./assets/margherita-real.svg"></div>
+                                    <h2>Margherita</h2>
+                                    <h3>Tomato base, mozzarella olive oil, origanum, garlic</h3>
+                            </div><!--margherita-->
+                        </div><!--pizza-1-->
+                            <div class="pizza-2 col-xl-3 col-md-6 col-sm-12">
+                                <div class="vegetarian">
+                                    <div class="vegetarian-img"><img class="pizza-img" src="./assets/vegetarian-real.svg"></div>
+                                        <h2>Vegetarian</h2>
+                                        <h3>Tomato base, mozzarella mushroom, green pepper, onion, tomato chunks</h3>
+                                </div><!--vegeterian-->
+                            </div><!--pizza-2-->
+                                <div class="pizza-3 col-xl-3 col-md-6 col-sm-12">
+                                    <div class="hawaiian">
+                                        <div class="hawaiian-img"><img class="pizza-img" src="./assets/hawaiian-real.svg"></div>
+                                            <h2>Hawaiian</h2>
+                                            <h3>Tomato base, mozzarella, ham, pineapple</h3>
+                                    </div><!--hawaiian-->
+                                </div><!--pizza-3-->
+                                    <div class="pizza-4 col-xl-3 col-md-6 col-sm-12">
+                                        <div class="pollo">
+                                            <div class="pollo-img"><img class="pizza-img" src="./assets/pollo-real.svg"></div>
+                                                <h2>Pollo</h2>
+                                                <h3>Tomato base, mozzarella, chicken, green pepper, tomatoes, olives, onions</h3>
+                                        </div><!--pollo-->
+                                    </div><!--pizza-3-->
+                    </div><!--menu-->
+                        <div class="pizza-customize col-12">
+                            <div class="pizza-customize-title col-12" style="margin-bottom: 50px;">
+                                <h2 class="heading-h1"><span  class="red-line-pizza">Customize your Pizza</span></h2>
+                            </div><!--pizza-customize-title-->
+                                <div class="row icon-set">
+                                    <div class="pizza-choices-container">
+                                        <div class="icons size"><img class="icon-img" src="./assets/size.svg"></div>
+                                            <h4 class="pizza-description">Size</h4>
+                                    </div><!--pizza-choices-container-->
+                                        <div class="pizza-choices-container">
+                                            <div class="icons base"><img class="icon-img" src="./assets/base.svg"></div>
+                                                <h4 class="pizza-description">Base</h4>
+                                        </div><!--pizza-choices-container-->
+                                            <div class="pizza-choices-container">
+                                                <div class="icons cheese"><img class="icon-img" src="./assets/extracheese.svg"></div>
+                                                    <h4 class="pizza-description">Extra Cheese</h4>
+                                            </div><!--pizza-choices-container-->
+                                                <div class="pizza-choices-container">
+                                                    <div class="icons top1"><img class="icon-img" src="./assets/Toppings.svg"></div>
+                                                        <h4 class="pizza-description">Topping 1</h4>
+                                                </div><!--pizza-choices-container-->
+                                                    <div class="pizza-choices-container">
+                                                        <div class="icons top2"><img class="icon-img" src="./assets/Toppings.svg"></div>
+                                                            <h4 class="pizza-description">Topping 2</h4>
+                                                    </div><!--pizza-choices-container-->
+                                                        <div class="pizza-choices-container">
+                                                            <div class="icons top3"><img class="icon-img" src="./assets/Toppings.svg"></div>
+                                                                <h4 class="pizza-description">Topping 3</h4>
+                                                        </div><!--pizza-choices-container-->
+                                                            <div class="pizza-choices-container">
+                                                                <div class="icons top4"><img class="icon-img" src="./assets/Toppings.svg"></div>
+                                                                    <h4 class="pizza-description">Topping 4</h4>
+                                                            </div><!--pizza-choices-container-->
+                            </div><!--icon set-->
+                                <div class="options-showcase size-showcase col-12">
+                                    <div class="options-container size-pluto col-lg-4 col-md-12">
+                                        <div class="select active">
+                                            <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/small-pizza.svg"></div></div>
+                                                <div class="options-description">25cm Pluto (R10,00)</div>
+                                        </div><!--select-->
+                                    </div><!--options-container-->
+                                        <div class="options-container size-neptune col-lg-4 col-md-12">
+                                            <div class="select active">
+                                                <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/medium-pizza.svg"></div></div>
+                                                    <div class="options-description">45cm Neptune (R45,00)</div>
+                                            </div><!--select-->
+                                        </div><!--options-container-->
+                                            <div class="options-container size-jupiter col-lg-4 col-md-12">
+                                                <div class="select active">
+                                                    <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/large-pizza.svg"></div></div>
+                                                        <div class="options-description">60cm Jupiter (R50,00)</div>
+                                            </div><!--select-->
+                                            </div><!--options-container-->
+                                </div><!--size showcase-->
+                                    <div class="options-showcase base-showcase col-12">
+                                        <div class="options-container base-tomato col-md-6 col-sm-12">
+                                            <div class="select active">
+                                                <div class="options-img"><div class="base-img"><img class="icon-img" src="./assets/tomato-sauce.svg"></div></div>
+                                                    <div class="options-description">Tomato (R??,??)</div>
+                                            </div><!--select-->
+                                        </div><!--options-container-->
+                                            <div class="options-container base-creme col-md-6 col-sm-12">
+                                                <div class="select active">
+                                                    <div class="options-img"><div class="base-img"><img class="icon-img" src="./assets/Crème Fraîche.svg"></div></div>
+                                                        <div class="options-description">Crème Fraîche (R??,??)</div>
+                                                </div><!--select-->
+                                            </div><!--options-container-->
+                                    </div><!--base showcase-->
+                                        <div class="options-showcase cheese-showcase col-12">
+                                            <div class="options-container cheese-yes col-md-6 col-sm-12">
+                                                <div class="select active">
+                                                    <div class="options-img"><div class="base-img"><img class="icon-img" src="./assets/cheese.svg"></div></div>
+                                                        <div class="options-description">Extra Cheese (R??,??)</div>
+                                                </div><!--select-->
+                                            </div><!--options-container-->
+                                                <div class="options-container cheese-no col-md-6 col-sm-12">
+                                                    <div class="select active">
+                                                        <div class="options-img"><div class="base-img"><img class="icon-img" src="./assets/no-cheese.svg"></div></div>
+                                                            <div class="options-description">No extra Cheese (R??,??)</div>
+                                                    </div><!--select-->
+                                                 </div><!--options-container-->
+                                        </div><!--cheese showcase-->
+                                            <div class="options-showcase top1-showcase col-12">
+                                                <div class="options-container top1-chicken col-lg-2 col-md-4 col-sm-6">
+                                                    <div class="select active">
+                                                        <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/chicken.svg"></div></div>
+                                                            <div class="options-description">Chicken (R??,??)</div>
+                                                    </div><!--select-->
+                                            </div><!--options-container-->
+                                                <div class="options-container top1-bacon col-lg-2 col-md-4 col-sm-6">
+                                                    <div class="select active">
+                                                        <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/bacon.svg"></div></div>
+                                                            <div class="options-description">Bacon (R??,??)</div>
+                                                    </div><!--select-->
+                                                </div><!--options-container-->
+                                                    <div class="options-container top1-peperoni col-lg-2 col-md-4 col-sm-6">
+                                                        <div class="select active">
+                                                            <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/peperoni.svg"></div></div>
+                                                                <div class="options-description">Peperoni (R??,??)</div>
+                                                        </div><!--select-->
+                                                    </div><!--options-container-->
+                                                        <div class="options-container top1-olives col-lg-2 col-md-4 col-sm-6">
+                                                        <div class="select active">
+                                                            <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/olives.svg"></div></div>
+                                                                <div class="options-description">Olives (R??,??)</div>
+                                                            </div><!--select-->
+                                                        </div><!--options-container-->
+                                                            <div class="options-container top1-onions col-lg-2 col-md-4 col-sm-6">
+                                                                <div class="select active">
+                                                                    <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/onion.svg"></div></div>
+                                                                        <div class="options-description">Onions (R??,??)</div>
+                                                                </div><!--select-->
+                                                            </div><!--options-container-->
+                                                                <div class="options-container top1-mushroom col-lg-2 col-md-4 col-sm-6">
+                                                                    <div class="select active">
+                                                                        <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/mushroom.svg"></div></div>
+                                                                            <div class="options-description">Mushroom (R??,??)</div>
+                                                                    </div><!--select-->
+                                                                </div><!--options-container-->
+                                </div><!--top1-showcase-->
+                                    <div class="options-showcase top2-showcase col-12">
+                                        <div class="options-container top2-chicken col-lg-2 col-md-4 col-sm-6">
+                                             <div class="select active">
+                                                <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/chicken.svg"></div></div>
+                                                    <div class="options-description">Chicken (R??,??)</div>
+                                            </div><!--select-->
+                                        </div><!--options-container-->
+                                            <div class="options-container top2-bacon col-lg-2 col-md-4 col-sm-6">
+                                                <div class="select active">
+                                                    <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/bacon.svg"></div></div>
+                                                        <div class="options-description">Bacon (R??,??)</div>
+                                                </div><!--select-->
+                                            </div><!--options-container-->
+                                                <div class="options-container top2-peperoni col-lg-2 col-md-4 col-sm-6">
+                                                    <div class="select active">
+                                                        <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/peperoni.svg"></div></div>
+                                                            <div class="options-description">Peperoni (R??,??)</div>
+                                                    </div><!--select-->
+                                                </div><!--options-container-->
+                                                    <div class="options-container top2-olives col-lg-2 col-md-4 col-sm-6">
+                                                        <div class="select active">
+                                                            <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/olives.svg"></div></div>
+                                                                <div class="options-description">Olives (R??,??)</div>
+                                                        </div><!--select-->
+                                                    </div><!--options-container-->
+                                                        <div class="options-container top2-onions col-lg-2 col-md-4 col-sm-6">
+                                                            <div class="select active">
+                                                                <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/onion.svg"></div></div>
+                                                                    <div class="options-description">Onions (R??,??)</div>
+                                                            </div><!--select-->
+                                                        </div><!--options-container-->
+                                                            <div class="options-container top2-mushroom col-lg-2 col-md-4 col-sm-6">
+                                                                <div class="select active">
+                                                                    <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/mushroom.svg"></div></div>
+                                                                        <div class="options-description">Mushroom (R??,??)</div>
+                                                                </div><!--select-->
+                                                            </div><!--options-container-->
+                                </div><!--top2-showcase-->
+                                    <div class="options-showcase top3-showcase col-12">
+                                        <div class="options-container top3-chicken col-lg-2 col-md-4 col-sm-6">
+                                            <div class="select active">
+                                                <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/chicken.svg"></div></div>
+                                                    <div class="options-description">Chicken (R??,??)</div>
+                                            </div><!--select-->
+                                        </div><!--options-container-->
+                                            <div class="options-container top3-bacon col-lg-2 col-md-4 col-sm-6">
+                                                <div class="select active">
+                                                    <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/bacon.svg"></div></div>
+                                                        <div class="options-description">Bacon (R??,??)</div>
+                                                </div><!--select-->
+                                            </div><!--options-container-->
+                                                <div class="options-container top3-peperoni col-lg-2 col-md-4 col-sm-6">
+                                                    <div class="select active">
+                                                        <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/peperoni.svg"></div></div>
+                                                            <div class="options-description">Peperoni (R??,??)</div>
+                                                    </div><!--select-->
+                                                </div><!--options-container-->
+                                                    <div class="options-container top3-olives col-lg-2 col-md-4 col-sm-6">
+                                                        <div class="select active">
+                                                            <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/olives.svg"></div></div>
+                                                                <div class="options-description">Olives (R??,??)</div>
+                                                        </div><!--select-->
+                                                    </div><!--options-container-->
+                                                        <div class="options-container top3-onions col-lg-2 col-md-4 col-sm-6">
+                                                            <div class="select active">
+                                                                <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/onion.svg"></div></div>
+                                                                    <div class="options-description">Onions (R??,??)</div>
+                                                            </div><!--select-->
+                                                        </div><!--options-container-->
+                                                            <div class="options-container top3-mushroom col-lg-2 col-md-4 col-sm-6">
+                                                                <div class="select active">
+                                                                    <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/mushroom.svg"></div></div>
+                                                                        <div class="options-description">Mushroom (R??,??)</div>
+                                                                </div><!--select-->
+                                                            </div><!--options-container-->
+                                </div><!--top3-showcase-->
+                                    <div class="options-showcase top4-showcase col-12">
+                                        <div class="options-container top4-chicken col-lg-2 col-md-4 col-sm-6">
+                                            <div class="select active">
+                                                <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/chicken.svg"></div></div>
+                                                    <div class="options-description">Chicken (R??,??)</div>
+                                            </div><!--select-->
+                                        </div><!--options-container-->
+                                            <div class="options-container top4-bacon col-lg-2 col-md-4 col-sm-6">
+                                                <div class="select active">
+                                                    <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/bacon.svg"></div></div>
+                                                        <div class="options-description">Bacon (R??,??)</div>
+                                                </div><!--select-->
+                                            </div><!--options-container-->
+                                                <div class="options-container top4-peperoni col-lg-2 col-md-4 col-sm-6">
+                                                    <div class="select active">
+                                                        <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/peperoni.svg"></div></div>
+                                                            <div class="options-description">Peperoni (R??,??)</div>
+                                                    </div><!--select-->
+                                                </div><!--options-container-->
+                                                    <div class="options-container top4-olives col-lg-2 col-md-4 col-sm-6">
+                                                        <div class="select active">
+                                                            <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/olives.svg"></div></div>
+                                                                <div class="options-description">Olives (R??,??)</div>
+                                                        </div><!--select-->
+                                                    </div><!--options-container-->
+                                                        <div class="options-container top4-onions col-lg-2 col-md-4 col-sm-6">
+                                                            <div class="select active">
+                                                                <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/onion.svg"></div></div>
+                                                                    <div class="options-description">Onions (R??,??)</div>
+                                                            </div><!--select-->
+                                                        </div><!--options-container-->
+                                                            <div class="options-container top3-mushroom col-lg-2 col-md-4 col-sm-6">
+                                                                <div class="select active">
+                                                                    <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/mushroom.svg"></div></div>
+                                                                        <div class="options-description">Mushroom (R??,??)</div>
+                                                                </div><!--select-->
+                                                            </div><!--options-container-->
+                                </div><!--top4-showcase--><!--kort js eers voor ek uit comment-->
+                                    <h2 class="heading-h1" style="margin-top: 75px;"></h2>
+                                        <div class="pizza-animation col-lg-6 col-md-pull-12"><!--pull needs work-->
+                                            <div class="pizza-animation-img"></div><!--pizza-animation-img-->
+                                        </div><!--bootstrap need to add more-->
+                                            <div class="pizza-info col-lg-6 col-md-push-12"><!--push needs work--> 
+                                                <div class="container-info-block">
+                                                    <div class="pizza-info-block">
+                                                        <div class="title"></div>
+                                                            <div class="pizza-description-list">Customize your pizza</div>
+                                                                <div class="container-pizza">                                                    
+                                                                    <div class="item-description col-6"></div>
+                                                                        <div class="price col-4"></div>
+                                                                            <div class="delete-item col-1"><i class="far fa-times-circle"></i></div><!--<i class="fas fa-times-circle"></i>-->
+                                                                </div><!--container pizza-->
+                                                                    <div class="employee-discount">Employee Discount:
+                                                                        <input type="text" id="employee"/> 
+                                                                    </div><!--employee discount-->     
+                                                    </div><!--pizza-info-block-->
+                                                    <div class="place-order">Place Order</div>
+                                                </div><!--container info block-->
+                                            </div><!--pizza info-->
+                        </div><!--pizza-customize-->
+                            <div class="about-us">
+                                <h2 class="heading-h1"><span  class="red-line-about-us">About Our Space Pizza Association</span></h2>
+                                    <h3 class="website-description-text">Planet pizza is an outer pizza shop with the attend of making the best pizza in the galaxy.<hr>
+
+                                        Planet pizza was founded by Pieter Venter in the early twenty first century. Our pizza sauce is made from ripe space tomatoes pick in late August and early September and fresh packed with fresh basil. Our pizza dough is made in zero gravity using fine mild flour from spring wheat. To finish our pizza we use 100% whole milk from the milkyway to make mozzarella.<hr>
+                                    
+                                        Quick delivery and quality pizza has become a signature part of Planet pizza legacy. Our speciality is outer space delivery . Last minute orders are always welcome. Best pizza in the universe.</h3>
+                            </div><!--about-us-->
+</div><!--container fluid-->   
+    <footer class="row col-12"><!--footer werk  nie in phone size nie-->
+        <div class="well col-4">
+            <a class="navbar-brand" style="color:#ffffff; font-size: 16px;"><img src="./assets/logo.svg" width="75" height="75">Planet Pizza</a>  
+        </div><!--well-->
+            <div class="well col-4">
+                <h1 class="copyright">Copyright 2021-Term 1</h1>
+            </div><!--well-->
+                <div class="well col-4"><!--fix in kleiner screen-->
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a> 
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-2x"></i></a> 
+                            <a href="https://twitter.com/"><i class="fab fa-twitter-square fa-2x"></i></a> 
+                                <a href="https://web.whatsapp.com/"><i class="fab fa-whatsapp-square fa-2x"></i></a> 
+                </div><!--well-->
+    </footer>
+</body>
+</html>
+
+
+
+
+<!--font kort ek nog 3 tipes-->
+
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+ jQuery library
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+ Popper JS 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+ Latest compiled JavaScript
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
