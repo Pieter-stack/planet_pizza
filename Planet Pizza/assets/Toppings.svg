@@ -1,0 +1,66 @@
+<svg id="Group_302" data-name="Group 302" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="129.23" height="130.095" viewBox="0 0 129.23 130.095">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_71" data-name="Rectangle 71" width="61.525" height="61.525" fill="none" stroke="#fff" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_70" data-name="Rectangle 70" width="49.779" height="116.338" fill="none" stroke="#fff" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_73" data-name="Rectangle 73" width="42.017" height="42.017" fill="none" stroke="#fff" stroke-width="5"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectangle_72" data-name="Rectangle 72" width="33.995" height="79.45" fill="none" stroke="#fff" stroke-width="5"/>
+    </clipPath>
+  </defs>
+  <g id="Ellipse_65" data-name="Ellipse 65" transform="translate(2.23 3.095)" fill="none" stroke="#fff" stroke-width="5">
+    <circle cx="63.5" cy="63.5" r="63.5" stroke="none"/>
+    <circle cx="63.5" cy="63.5" r="61" fill="none"/>
+  </g>
+  <line id="Line_116" data-name="Line 116" y2="124.566" transform="translate(65.95 3.611)" fill="none" stroke="#fff" stroke-width="5"/>
+  <line id="Line_117" data-name="Line 117" x2="63.251" transform="translate(2.699 67.508)" fill="none" stroke="#fff" stroke-width="5"/>
+  <g id="Ellipse_66" data-name="Ellipse 66" transform="translate(72.23 18.095)" fill="none" stroke="#fff" stroke-width="5">
+    <circle cx="8.5" cy="8.5" r="8.5" stroke="none"/>
+    <circle cx="8.5" cy="8.5" r="6" fill="none"/>
+  </g>
+  <g id="Ellipse_67" data-name="Ellipse 67" transform="translate(81.23 39.095)" fill="none" stroke="#fff" stroke-width="5">
+    <circle cx="9.5" cy="9.5" r="9.5" stroke="none"/>
+    <circle cx="9.5" cy="9.5" r="7" fill="none"/>
+  </g>
+  <g id="Ellipse_68" data-name="Ellipse 68" transform="translate(70.23 67.095)" fill="none" stroke="#fff" stroke-width="5">
+    <ellipse cx="8.5" cy="9" rx="8.5" ry="9" stroke="none"/>
+    <ellipse cx="8.5" cy="9" rx="6" ry="6.5" fill="none"/>
+  </g>
+  <g id="Ellipse_69" data-name="Ellipse 69" transform="translate(98.23 59.095)" fill="none" stroke="#fff" stroke-width="5">
+    <ellipse cx="9.5" cy="10" rx="9.5" ry="10" stroke="none"/>
+    <ellipse cx="9.5" cy="10" rx="7" ry="7.5" fill="none"/>
+  </g>
+  <g id="Ellipse_70" data-name="Ellipse 70" transform="translate(81.23 94.095)" fill="none" stroke="#fff" stroke-width="5">
+    <ellipse cx="9.5" cy="9" rx="9.5" ry="9" stroke="none"/>
+    <ellipse cx="9.5" cy="9" rx="7" ry="6.5" fill="none"/>
+  </g>
+  <g id="Rectangle_69" data-name="Rectangle 69" transform="translate(35.647 91.065)" fill="none" stroke="#fff" stroke-width="5">
+    <rect width="8.39" height="18.072" rx="4.195" stroke="none"/>
+    <rect x="2.5" y="2.5" width="3.39" height="13.072" rx="1.695" fill="none"/>
+  </g>
+  <g id="Path_43" data-name="Path 43" transform="translate(17.104 75.901)" fill="none">
+    <path d="M22.738,2.257A19.851,19.851,0,0,1,35.354,6.689c5.1,4.276,6.99,10.549,3.989,12.277s-5.02-1.048-16.6-1.048S9.317,20.695,6.315,18.966s-.91-7.637,5.547-12.277C14.772,4.6,19.309,2.257,22.738,2.257Z" stroke="none"/>
+    <path d="M 22.73827934265137 7.256594657897949 C 20.97097015380859 7.256594657897949 17.54998970031738 8.7579345703125 14.77985954284668 10.74950408935547 C 13.08935165405273 11.96429634094238 11.99042892456055 13.12063694000244 11.30902862548828 13.98489952087402 C 13.74244117736816 13.49639415740967 17.25201034545898 12.91782474517822 22.73827934265137 12.91782474517822 C 28.93716621398926 12.91782474517822 32.6630744934082 13.65837669372559 35.14493179321289 14.16774559020996 C 35.1184196472168 14.11671543121338 35.09088134765625 14.06491947174072 35.06222152709961 14.01226425170898 C 34.38784790039063 12.77339458465576 33.35123062133789 11.53389453887939 32.14273834228516 10.52159404754639 C 29.66641044616699 8.446643829345703 26.23860931396484 7.256594657897949 22.73827934265137 7.256594657897949 M 22.73827934265137 2.256593704223633 C 26.96497917175293 2.256593704223633 31.67419052124023 3.605764389038086 35.35401153564453 6.68913459777832 C 40.45891952514648 10.96530437469482 42.34416961669922 17.2376537322998 39.34321975708008 18.9663143157959 C 38.63108062744141 19.37653350830078 37.97373962402344 19.53308296203613 37.23122406005859 19.53308296203613 C 34.84478759765625 19.53308296203613 31.57396697998047 17.91782379150391 22.73827934265137 17.91782379150391 C 13.90329170227051 17.91782379150391 10.73778915405273 19.53308296203613 8.401596069335938 19.53308296203613 C 7.674465179443359 19.53308296203613 7.027751922607422 19.37663841247559 6.315341949462891 18.9663143157959 C 3.314010620117188 17.2376537322998 5.405498504638672 11.32883453369141 11.86207962036133 6.68913459777832 C 14.77210998535156 4.59698486328125 19.30867004394531 2.256593704223633 22.73827934265137 2.256593704223633 Z" stroke="none" fill="#fff"/>
+  </g>
+  <g id="Mask_Group_2" data-name="Mask Group 2" transform="translate(61.525 61.525) rotate(180)" clip-path="url(#clip-path)">
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(0 -54.813)" clip-path="url(#clip-path-2)">
+      <g id="Ellipse_71" data-name="Ellipse 71" transform="translate(-50.339 4.475)" fill="none" stroke="#fff" stroke-width="5">
+        <circle cx="50.059" cy="50.059" r="50.059" stroke="none"/>
+        <circle cx="50.059" cy="50.059" r="47.559" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g id="Mask_Group_4" data-name="Mask Group 4" transform="translate(56.655 56.858) rotate(180)" clip-path="url(#clip-path-3)">
+    <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(0 -37.433)" clip-path="url(#clip-path-4)">
+      <g id="Ellipse_72" data-name="Ellipse 72" transform="translate(-34.377 3.056)" fill="none" stroke="#fff" stroke-width="5">
+        <circle cx="34.186" cy="34.186" r="34.186" stroke="none"/>
+        <circle cx="34.186" cy="34.186" r="31.686" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
