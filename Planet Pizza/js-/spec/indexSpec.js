@@ -1,11 +1,23 @@
-describe("function newPizza", function () {
-    it("should get ingredints for pizza", function () {
-        expect(newPizza()).toEqual(undefined);
+describe("function PizzaPlaceOrder", function () {
+    it("place new pizza order", function () {
+        expect(PizzaPlaceOrder()).toEqual(undefined);
     });
 });
 
-describe("function Discount", function () {
+describe("function PizzaDiscount", function () {
     it("The discount code work", function () {
-        expect(Discount()).toEqual(undefined);
+        expect(PizzaDiscount()).toEqual(undefined);
+    });
+});
+
+describe("function PizzaPrice", function () {
+    it("Works out the total cost of the pizza", function () {
+        expect(PizzaPrice()).toEqual(undefined);
+    });
+});
+
+describe("function PizzaName ", function () {
+    it("Generate a pizza name", function () {
+        expect(PizzaName() ).toEqual(undefined);
     });
 });

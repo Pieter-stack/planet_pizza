@@ -25,12 +25,14 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, .row{
     background-color: #AE0000;
     margin-right: 30px;
     border-radius: 25px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .fa-shopping-cart{
     color: #ffffff; 
     margin-right: 20px;
     margin-top: 12px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .fa-shopping-cart:hover{
@@ -158,12 +160,14 @@ h3{
     color: #ffffff;
     background-color:  #333333; 
     float: left;
+    font-family: 'Roboto', sans-serif;
 }
 
 .pizza-customize{
     min-height: 940px;
     background-color: #222222;
     display: inline-block;
+    font-family: 'Roboto', sans-serif;
 }
 
 .red-line-pizza{
@@ -231,12 +235,14 @@ h3{
     background-color: #900404;
     float: left;
     border: solid 2px #ffffff;
+
 }
 
 .pizza-description{
     text-align: center;
     color: #ffffff;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -273,13 +279,19 @@ h3{
     color: #ffffff;
     margin-top: 5px;
     font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
+.pizza-container-space{
+color: #ffffff;
+font-family: 'Montserrat', sans-serif;
+}
 
 .pizza-info{
     height: 1200px;
     float: left;
     margin-top: 200px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -343,7 +355,7 @@ margin-left: 20px;
 .about-us{
     min-height: 500px;
     background-color: #111111;
-    
+    font-family: 'Roboto', sans-serif;    
 
 }
 
@@ -458,7 +470,7 @@ margin-left: 40%;
 }
 
 .pizza-animation-img{
-    background-image: url(../assets/pizza-base.svg);
+    background-image: url(../assets/pizza-base.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -469,7 +481,7 @@ margin-left: 40%;
 }
 
 .tomato-sauce-img{
-    background-image: url(../assets/tomato-sauce-real.svg);
+    background-image: url(../assets/tomato-sauce-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -481,7 +493,7 @@ margin-left: 40%;
 }
 
 .creme-fraiche-sauce-img{
-    background-image: url(../assets/creme\ fraiche-real.svg);
+    background-image: url(../assets/creme\ fraiche-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -492,7 +504,7 @@ margin-left: 40%;
 }
 
 .chedder-cheese-img{
-    background-image: url(../assets/chedder-cheese.svg);
+    background-image: url(../assets/chedder-cheese.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -503,7 +515,7 @@ margin-left: 40%;
 }
 
 .more-chedder-cheese-img{
-    background-image: url(../assets/chedder-cheese-more.svg);
+    background-image: url(../assets/chedder-cheese-more.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -514,7 +526,7 @@ margin-left: 40%;
 }
 
 .chicken-img{
-    background-image: url(../assets/chicken-real.svg);
+    background-image: url(../assets/chicken-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -525,7 +537,7 @@ margin-left: 40%;
 }
 
 .bacon-img{
-    background-image: url(../assets/bacon-real.svg);
+    background-image: url(../assets/bacon-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -536,7 +548,7 @@ margin-left: 40%;
 }
 
 .peperoni-img{
-    background-image: url(../assets/peperoni-real.svg);
+    background-image: url(../assets/peperoni-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -547,7 +559,7 @@ margin-left: 40%;
 }
 
 .olives-img{
-    background-image: url(../assets/olives-real.svg);
+    background-image: url(../assets/olives-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -558,7 +570,7 @@ margin-left: 40%;
 }
 
 .onions-img{
-    background-image: url(../assets/onions-real.svg);
+    background-image: url(../assets/onions-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -569,7 +581,7 @@ margin-left: 40%;
 }
 
 .mushrooms-img{
-    background-image: url(../assets/mushrooms-real.svg);
+    background-image: url(../assets/mushrooms-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -581,7 +593,7 @@ margin-left: 40%;
 
 
 .chicken-img2{
-    background-image: url(../assets/chicken-real.svg);
+    background-image: url(../assets/chicken-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -592,7 +604,7 @@ margin-left: 40%;
 }
 
 .bacon-img2{
-    background-image: url(../assets/bacon-real.svg);
+    background-image: url(../assets/bacon-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -603,7 +615,7 @@ margin-left: 40%;
 }
 
 .peperoni-img2{
-    background-image: url(../assets/peperoni-real.svg);
+    background-image: url(../assets/peperoni-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -614,7 +626,7 @@ margin-left: 40%;
 }
 
 .olives-img2{
-    background-image: url(../assets/olives-real.svg);
+    background-image: url(../assets/olives-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -625,7 +637,7 @@ margin-left: 40%;
 }
 
 .onions-img2{
-    background-image: url(../assets/onions-real.svg);
+    background-image: url(../assets/onions-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -636,7 +648,7 @@ margin-left: 40%;
 }
 
 .mushrooms-img2{
-    background-image: url(../assets/mushrooms-real.svg);
+    background-image: url(../assets/mushrooms-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -647,7 +659,7 @@ margin-left: 40%;
 }
 
 .chicken-img3{
-    background-image: url(../assets/chicken-real.svg);
+    background-image: url(../assets/chicken-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -658,7 +670,7 @@ margin-left: 40%;
 }
 
 .bacon-img3{
-    background-image: url(../assets/bacon-real.svg);
+    background-image: url(../assets/bacon-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -669,7 +681,7 @@ margin-left: 40%;
 }
 
 .peperoni-img3{
-    background-image: url(../assets/peperoni-real.svg);
+    background-image: url(../assets/peperoni-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -680,7 +692,7 @@ margin-left: 40%;
 }
 
 .olives-img3{
-    background-image: url(../assets/olives-real.svg);
+    background-image: url(../assets/olives-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -691,7 +703,7 @@ margin-left: 40%;
 }
 
 .onions-img3{
-    background-image: url(../assets/onions-real.svg);
+    background-image: url(../assets/onions-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -702,7 +714,7 @@ margin-left: 40%;
 }
 
 .mushrooms-img3{
-    background-image: url(../assets/mushrooms-real.svg);
+    background-image: url(../assets/mushrooms-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -713,7 +725,7 @@ margin-left: 40%;
 }
 
 .chicken-img4{
-    background-image: url(../assets/chicken-real.svg);
+    background-image: url(../assets/chicken-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -724,7 +736,7 @@ margin-left: 40%;
 }
 
 .bacon-img4{
-    background-image: url(../assets/bacon-real.svg);
+    background-image: url(../assets/bacon-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -735,7 +747,7 @@ margin-left: 40%;
 }
 
 .peperoni-img4{
-    background-image: url(../assets/peperoni-real.svg);
+    background-image: url(../assets/peperoni-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -746,7 +758,7 @@ margin-left: 40%;
 }
 
 .olives-img4{
-    background-image: url(../assets/olives-real.svg);
+    background-image: url(../assets/olives-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -757,7 +769,7 @@ margin-left: 40%;
 }
 
 .onions-img4{
-    background-image: url(../assets/onions-real.svg);
+    background-image: url(../assets/onions-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -768,7 +780,7 @@ margin-left: 40%;
 }
 
 .mushrooms-img4{
-    background-image: url(../assets/mushrooms-real.svg);
+    background-image: url(../assets/mushrooms-real.png);
     background-size: contain;
     height: 100%;
     width: 100%;
@@ -805,7 +817,7 @@ margin-left: 40%;
     color: #ffffff;
     text-align: center;
     font-size: 36px;
-
+    font-family: 'Montserrat', sans-serif;
 }
 
 .employee-discount-container{
@@ -817,6 +829,7 @@ margin-left: 40%;
     border-radius: 10px; 
     float: left;
     margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .employee-discount{
@@ -1056,36 +1069,74 @@ margin-left: 40%;
     }
 }
 
+.margherita-text{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 700;
+}
 
+.vegetarian-text{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 700;
+}
+
+.hawaiian-text{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 700;
+}
+
+.pollo-text{
+    font-family: 'Montserrat', sans-serif;  
+    font-weight: 700;
+}
+
+.margherita-text1{
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.vegetarian-text1{
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.hawaiian-text1{
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.pollo-text1{
+    font-family: 'Montserrat', sans-serif;  
+}
 
 .disabledbutton {
     pointer-events: none;
     filter: grayscale(60%);
 }
 
-
-
-
-
-.shopping-cart{
+.cart{
     background-color: #ff0000;
-   min-height: 850px;
-    width: 80%;
-    margin-left: 10%;
-    margin-top: 50px;
+    min-height: 950px;
+     width: 414px;
+    float: right;
+     z-index: 100;
+     position: sticky;
+     position: fixed;
+     backdrop-filter: blur(5px) brightness(5%);
+     background-color: rgba(0, 0, 0, 0.9);   
+}
+.shopping-cart{
+
+   min-height: 950px;
+    width: 100%;
     z-index: 100;
     position: sticky;
     position: fixed;
-    backdrop-filter: blur(5px) brightness(5%);
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 60px;
+    backdrop-filter: blur(2px);
+
 
 }
 
 
 .order-title{
     color: #ffffff;
-    font-size: 55px;
+    font-size: 35px;
     margin-top: 20px;
     margin-left: 60px;
     margin-bottom: 50px;
@@ -1093,26 +1144,20 @@ margin-left: 40%;
 
 .product-title{
     color: #ffffff;
-    font-size: 35px;
+    font-size: 20px;
     margin-top: 30px;
     margin-left: 60px;
     float: left;
-}
-
-.quantity-title{
-    color: #ffffff;
-    font-size: 35px;
-    margin-top: 30px;
-    margin-left: 30%;
-    float: left; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .total-title{
     color: #ffffff;
-    font-size: 35px;
+    font-size: 20px;
     margin-top: 30px;
     margin-left: 30%;
-    float: left; 
+    float: left;
+    font-family: 'Montserrat', sans-serif; 
 
 }
 
@@ -1121,7 +1166,7 @@ margin-left: 40%;
     font-size: 50px;  
     content:"";
     position:absolute;
-    top:30%;
+    top:20%;
     left:45px;
     right:45px;
     border-top:solid 1px #AE0000;
@@ -1136,33 +1181,28 @@ margin-left: 40%;
     margin-top: 30px;
     margin-left: 5%;
     float: left;
+
 }
 
 .pizza-name-cart{
     color: #ffffff;
-    font-size: 35px;
+    font-size: 15px;
     margin-left: 5px;
     float: left; 
-    width: 35%;
-    height: 50px;  
+    width: 60%;
+    height: 25px; 
+    font-family: 'Montserrat', sans-serif;
 }
 
-.pizza-quantity-cart{
-    color: #ffffff;
-    font-size: 35px;
-    float: left; 
-    width: 25%;
-    height: 50px;
-    text-align: center;  
-}
 
 .pizza-price-cart{
     color: #ffffff;
-    font-size: 35px;
+    font-size: 15px;
     float: left; 
-    text-align: right;
-    width: 35%;
-    height: 50px;  
+    text-align: center;
+    width: 30%;
+    height: 25px; 
+    font-family: 'Montserrat', sans-serif; 
 }
 
 
@@ -1170,7 +1210,7 @@ margin-left: 40%;
     font-size: 50px;  
     content:"";
     position:absolute;
-    top:65%;
+    top:59%;
     left:45px;
     right:45px;
     border-top:solid 1px #AE0000;
@@ -1180,64 +1220,36 @@ margin-left: 40%;
 }
 
 .total-container{
-
-    width: 500px;
+    width: 100%;
     height: 250px;
-    margin-top: 400px;
-    margin-left: 35%;
-}
+    margin-top: 500px;
 
-.subtotal{
-    color: #ffffff;
-    font-size: 20px;
-    margin-left: 20%;
-    float: left; 
-
-}
-
-.subtotal-h2{
-    color: #ffffff;
-    font-size: 20px;
-    margin-left: 20%;
-
-}
-
-.discount-cart{
-    color: #ffffff;
-    font-size: 20px;
-    margin-left: -16%;
-    margin-top: 10px;
-    float: left; 
-}
-
-.discount-h2{
-    color: #ffffff;
-    font-size: 20px;
-    margin-left: 20%; 
 }
 
 .total-cart-bottom{
     color: #ffffff;
-    font-size: 20px;
-    margin-left: -16%;
+    font-size: 35px;
+    font-weight: 600;
+    margin-left: 20%;
     float: left; 
-    margin-top: 50px;
+    margin-top: -5px;
 }
 
 .total-h2{
     color: #ffffff;
-    font-size: 20px;
+    font-size: 35px;
     margin-left: 37%;
-    margin-top: 53px;
+    margin-top: 26px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .red-line3::after{
     font-size: 50px;  
     content:"";
     position:absolute;
-    top:78%;
-    left:40%;
-    right:40%;
+    top:69%;
+    left:80px;
+    right:80px;
     border-top:solid 1px #AE0000;
     z-index:-1;
     margin-bottom: 20px;
@@ -1246,17 +1258,30 @@ margin-left: 40%;
 
 .checkout{
     background-color: #ffffff;
-    width: 60%;
+    width: 70%;
     height: 50px;
-    margin-left: 19%;
-    margin-top: 20px;
+    margin-left: 15%;
+    margin-top: 60px;
     border-radius: 50px;
     text-align: center;
     font-size: 30px;
     padding-top: 3px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-
+.checkout:hover{
+    background-color: #AE0000;
+    width: 70%;
+    height: 50px;
+    margin-left: 15%;
+    margin-top: 60px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 3px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+}
 
 .active2{
 
