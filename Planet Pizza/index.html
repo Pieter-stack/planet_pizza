@@ -32,13 +32,16 @@
                         <li class="nav-item">
                             <a href="#order"><button class="btn btn-header" type="button" >Order</button></a>
                         </li>
+                        <li class="nav-item">
+                            <a><button class="btn btn-header dark-mode-btn" id="dark-mode-local" type="button" ><i id="dark-mode" class='fas fa-moon'></i><h1 id="dark-mode-h1" style="font-size: 10px; float: right; margin-left: 3px; margin-top: 6px;">Dark Mode</h1></i></button></a>
+                          </li> 
                           <li class="nav-item">
-                            <a href="#" id="cart"><i class="fa fa-shopping-cart"></i></a>
+                            <a id="cart"><i class="fas fa-shopping-cart"></i></a>
                           </li> 
                       </ul>
                     </div>                           
      </nav>
-     <div class="shopping-cart">
+     <div class=" row shopping-cart">
          <div class="cart">
          <div class="order-title">Your Galactic Order:</div>
             <div class="product-title">Product:</div>
@@ -54,76 +57,134 @@
                 </div><!--total-container-->
             </div><!--cart-->
      </div><!--shopping-cart-->
-        <div id="home" class="row slider col-12"><img class="card-img-top" src="./assets/slide-1.png" style="background-size: cover; margin-top: -100px;" ></div><!--slider--><!--needs to be workerd on still-->
+     <div class="backgroundblur-dark">
+        <div class="container-dark-mode"> 
+            <h1 style="color: #ffffff; font-size: 23px; text-align: center; margin-top: 20px; line-height: 35px; font-family: 'Montserrat', sans-serif;">Our website has the option to be viewed in light and dark mode please choose your prefered choice.</h1>
+            <div class="btn-dark">Dark Mode</div>
+            <div class="btn-light">Light Mode</div>
+        </div><!--container-dark-mode-->
+    </div><!--backgroundblur-dark-->
+     <div class="backgroundblur">
+        <div class="successful-checkout">
+            <h1 class="order-on-way">Your order is on our fastest spaceship and on the way to earth.</h1>
+                <img src="./assets/logo.svg" width="100" height="100" style="margin-left: 40%;">
+        </div><!--successful checkout-->
+    </div><!--backgroundblur-->
+
+
+
+
+
+
+
+        <div id="home" class="row slider col-12">
+            <div class="overlay">
+                <div class="heading-container">
+                    <h1 class="heading-content heading-1"> Galactic Peperoni</h1>
+                        <h1 class="heading-content heading-2">Come eat space pizza</h1>
+                            <h1 class="heading-content heading-3">Join our space program</h1>
+                                <h1 class="heading-content heading-4">Tuesday special</h1>
+                </div><!--heading container-->
+                <div class="body-container">
+                    <h1 class="body-content body-1">We have the yummiest peperoni in the galaxy, come and get our galactic peperoni pizza for you and all your friends to experience flavours that are out of this world.</h1>
+                        <h1 class="body-content body-2">We have the best pizza in the whole universe, no aliens have ever beaten us to the galactic pizza contest.</h1>
+                            <h1 class="body-content body-3">We have the best rewards program for our loyal customers and for every 10 pizzas ordered you get 1 pizza for FREE!!!</h1>
+                                <h1 class="body-content body-4">We have our space pizza Tuesday special buy 2 pizza's for the price of on only valid on Tuesday.</h1>
+                </div><!--body container-->
+            </div><!--overlay-->
+            <img class="img-slider" src="./assets/slide-1.png" >
+            <div class="container-slide-position">
+                <div class="dot-slide dot-1 active-slide"></div>
+                    <div class="dot-slide dot-2"></div>
+                        <div class="dot-slide dot-3"></div>
+                            <div class="dot-slide dot-4"></div>
+            </div><!--container slide position-->
+            <div class="progress_slider">
+                <div class="progress_slider_timer"></div>
+            </div><!--progress slider-->
+        </div><!--slider--><!--needs to be workerd on still-->
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div id="order" class="menu-title col-12">
-                <h2 class="heading-h1"><span  class="red-line-menu">Menu</span></h2>
-                    <h2 style="font-size: 35px; margin-bottom: 25px;">Select your pizza...</h2>
+                <h2 class="heading-h1 mode-text"><span  class="red-line-menu">Menu</span></h2>
+                    <h2 class="mode-text" style="font-size: 35px; margin-bottom: 25px;">Select your pizza...</h2>
             </div><!--menu-title-->
                     <div  class="row menu col-12">
                         <div class="pizza-1 col-xl-3 col-md-6 col-sm-12"  id="pizza-type">
                             <div class="type item name-btn margherita"value="margherita" pricevalue="5">
                                 <div class="margherita-img"><img class="pizza-img" src="./assets/Margherita-real.png"></div>
-                                    <h2 class="margherita-text">Margherita</h2>
-                                    <h3 class="margherita-text1">Tomato base, mozzarella olive oil, origanum, garlic</h3>
+                                    <h2 class="margherita-text mode-text">Margherita</h2>
+                                    <h3 class="margherita-text1 mode-text">Tomato base, mozzarella, olive oil, origanum, garlic</h3>
                             </div><!--margherita-->
                         </div><!--pizza-1-->
                             <div class="pizza-2 col-xl-3 col-md-6 col-sm-12"   id="pizza-type">
                                 <div class="type item name-btn vegetarian"value="vegetarian" pricevalue="5">
                                     <div class="vegetarian-img"><img class="pizza-img" src="./assets/Vegeterian-real.png"></div>
-                                        <h2 class="vegetarian-text">Vegetarian</h2>
-                                        <h3 class="vegetarian-text1">Tomato base, mozzarella mushroom, green pepper, onion, tomato chunks</h3>
+                                        <h2 class="vegetarian-text mode-text">Vegetarian</h2>
+                                        <h3 class="vegetarian-text1 mode-text">Tomato base, mozzarella mushroom, green pepper, onion, tomato chunks</h3>
                                 </div><!--vegeterian-->
                             </div><!--pizza-2-->
                                 <div class="pizza-3 col-xl-3 col-md-6 col-sm-12"  id="pizza-type">
                                     <div class="type item name-btn hawaiian" value="hawaiian" pricevalue="5">
                                         <div class="hawaiian-img"><img class="pizza-img" src="./assets/Hawaiian-real.png"></div>
-                                            <h2 class="hawaiian-text">Hawaiian</h2>
-                                            <h3 class="hawaiian-text1">Tomato base, mozzarella, ham, pineapple</h3>
+                                            <h2 class="hawaiian-text mode-text">Hawaiian</h2>
+                                            <h3 class="hawaiian-text1 mode-text">Tomato base, mozzarella, ham, pineapple</h3>
                                     </div><!--hawaiian-->
                                 </div><!--pizza-3-->
                                     <div class="pizza-4 col-xl-3 col-md-6 col-sm-12"  id="pizza-type">
                                         <div class="type item name-btn pollo" value="pollo" pricevalue="5">
                                             <div class="pollo-img"><img class="pizza-img" src="./assets/Pollo-real.png"></div>
-                                                <h2 class="pollo-text">Pollo</h2>
-                                                <h3 class="pollo-text1">Tomato base, mozzarella, chicken, green pepper, tomatoes, olives, onions</h3>
+                                                <h2 class="pollo-text mode-text">Pollo</h2>
+                                                <h3 class="pollo-text1 mode-text">Tomato base, mozzarella, chicken, green pepper, tomatoes, olives, onions</h3>
                                         </div><!--pollo-->
                                     </div><!--pizza-3-->
                     </div><!--menu-->
                         <div class="pizza-customize col-12">
                             <div class="pizza-customize-title col-12" style="margin-bottom: -40px;">
-                                <h2 class="heading-h1"><span  class="red-line-pizza">Customize your Pizza</span></h2>
+                                <h2 class="heading-h1 mode-text"><span  class="red-line-pizza">Customize your Pizza</span></h2>
                             </div><!--pizza-customize-title-->
                                 <div class="row icon-set">
                                     <div class="pizza-choices-container">
                                         <div class="icons size"><img class="icon-img" src="./assets/size.svg"></div>
-                                            <h4 class="pizza-description">Size</h4>
+                                            <h4 class="pizza-description mode-text">Size</h4>
                                     </div><!--pizza-choices-container-->
                                         <div class="pizza-choices-container">
                                             <div class="icons base"><img class="icon-img" src="./assets/base.svg"></div>
-                                                <h4 class="pizza-description">Base</h4>
+                                                <h4 class="pizza-description mode-text">Base</h4>
                                         </div><!--pizza-choices-container-->
                                             <div class="pizza-choices-container">
                                                 <div class="icons cheese"><img class="icon-img" src="./assets/extracheese.svg"></div>
-                                                    <h4 class="pizza-description">Extra Cheese</h4>
+                                                    <h4 class="pizza-description mode-text">Extra Cheese</h4>
                                             </div><!--pizza-choices-container-->
                                                 <div class="pizza-choices-container">
                                                     <div class="icons top1"><img class="icon-img" src="./assets/Toppings.svg"></div>
-                                                        <h4 class="pizza-description">Topping 1</h4>
+                                                        <h4 class="pizza-description mode-text">Topping 1</h4>
                                                 </div><!--pizza-choices-container-->
                                                     <div class="pizza-choices-container">
                                                         <div class="icons top2"><img class="icon-img" src="./assets/Toppings.svg"></div>
-                                                            <h4 class="pizza-description">Topping 2</h4>
+                                                            <h4 class="pizza-description mode-text">Topping 2</h4>
                                                     </div><!--pizza-choices-container-->
                                                         <div class="pizza-choices-container">
                                                             <div class="icons top3"><img class="icon-img" src="./assets/Toppings.svg"></div>
-                                                                <h4 class="pizza-description">Topping 3</h4>
+                                                                <h4 class="pizza-description mode-text">Topping 3</h4>
                                                         </div><!--pizza-choices-container-->
                                                             <div class="pizza-choices-container">
                                                                 <div class="icons top4"><img class="icon-img" src="./assets/Toppings.svg"></div>
-                                                                    <h4 class="pizza-description">Topping 4</h4>
+                                                                    <h4 class="pizza-description mode-text">Topping 4</h4>
                                                             </div><!--pizza-choices-container-->
                                 </div><!--icon set-->
-                                    <h2 class="heading-h1" style="margin-top: 20px;"></h2>
+                                    <h2 class="heading-h1 mode-text" style="margin-top: 20px;"></h2>
                                         <div class="pizza-animation-block col-lg-6 col-md-push-12 col-sm-12">
                                             <div class="pizza-name-generate">
 
@@ -161,9 +222,8 @@
                                                     </div><!--pizza-animation-img-->
                                                 </div><!--pizza animation-->
                                                     <div class="employee-discount-container">
-                                                        <div class="employee-discount">Employee Discount:
+                                                        <div class="employee-discount">Employee Discount:</div> 
                                                             <input type="text" id="employee" onchange="PizzaDiscount()" />
-                                                        </div><!--employee discount-->  
                                                     </div><!--employee-discount-container-->
                                                         <div class="place-order">
                                                             <h1 class="place-order-h1" onclick="PizzaPlaceOrder()">Place Order</h1>
@@ -174,22 +234,22 @@
                                                     <div class="options-container size-pluto col-lg-4 col-md-12"  id="pizza-size">
                                                         <div class="select1 item name-btn"  value="pluto"  pricevalue="10">
                                                             <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/small-pizza.svg"></div></div>
-                                                                <div class="options-description">25cm Pluto</div>
-                                                                    <div class="options-description">(R10,00)</div>
+                                                                <div class="options-description mode-text">25cm Pluto</div>
+                                                                    <div class="options-description mode-text">(R10,00)</div>
                                                         </div><!--select-->
                                                     </div><!--options-container-->
                                                         <div class="options-container size-neptune col-lg-4 col-md-12"   id="pizza-size">
                                                             <div class="select1 item name-btn "value="neptune"  pricevalue="45">
                                                                 <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/medium-pizza.svg"></div></div>
-                                                                    <div class="options-description">45cm Neptune</div>
-                                                                        <div class="options-description">(R45,00)</div>
+                                                                    <div class="options-description mode-text">45cm Neptune</div>
+                                                                        <div class="options-description mode-text">(R45,00)</div>
                                                             </div><!--select-->
                                                         </div><!--options-container-->
                                                             <div class="options-container size-jupiter col-lg-4 col-md-12" id="pizza-size">
                                                                 <div class="select1 item name-btn " value="jupiter"  pricevalue="60" >
                                                                     <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/large-pizza.svg"></div></div>
-                                                                        <div class="options-description">60cm Jupiter</div>
-                                                                            <div class="options-description">(R50,00)</div>
+                                                                        <div class="options-description mode-text">60cm Jupiter</div>
+                                                                            <div class="options-description mode-text">(R50,00)</div>
                                                                 </div><!--select-->
                                                             </div><!--options-container -->
                                                 </div><!--pizza choices block size-->
@@ -197,15 +257,15 @@
                                                         <div class="options-container base-tomato col-md-6 col-sm-12"    id="pizza-base">
                                                             <div class="select2 item" value="tomato"  pricevalue="5">
                                                                 <div class="options-img"><div class="base-img"><img class="icon-img" src="./assets/tomato-sauce.svg"></div></div>
-                                                                    <div class="options-description">Tomato</div>
-                                                                        <div class="options-description">(R??,00)</div>
+                                                                    <div class="options-description mode-text">Tomato</div>
+                                                                        <div class="options-description mode-text">(R5,00)</div>
                                                             </div><!--select-->
                                                         </div><!--options-container-->
                                                             <div class="options-container base-creme col-md-6 col-sm-12"   id="pizza-base">
                                                                 <div class="select2 item "value="creme fraiche"  pricevalue="5" >
                                                                     <div class="options-img"><div class="base-img"><img class="icon-img" src="./assets/Crème Fraîche.svg"></div></div>
-                                                                        <div class="options-description">Crème Fraîche </div>
-                                                                            <div class="options-description">(R??,00)</div>
+                                                                        <div class="options-description mode-text">Crème Fraîche </div>
+                                                                            <div class="options-description mode-text">(R5,00)</div>
                                                                 </div><!--select-->
                                                             </div><!--options-container-->
                                                     </div><!--pizza choices block base-->
@@ -213,15 +273,15 @@
                                                             <div class="options-container cheese-yes col-md-6 col-sm-12">
                                                                 <div class="select3 item " value="yes"  pricevalue="10">
                                                                     <div class="options-img"><div class="base-img"><img class="icon-img" src="./assets/cheese.svg"></div></div>
-                                                                        <div class="options-description">Extra Cheese</div>
-                                                                            <div class="options-description">(R??,00)</div>
+                                                                        <div class="options-description mode-text">Extra Cheese</div>
+                                                                            <div class="options-description mode-text">(R10,00)</div>
                                                                 </div><!--select-->
                                                             </div><!--options-container-->
                                                                 <div class="options-container cheese-no col-md-6 col-sm-12"    id="pizza-size">
                                                                     <div class="select3 item "value="no"  pricevalue="0">
                                                                         <div class="options-img"><div class="base-img"><img class="icon-img" src="./assets/no-cheese.svg"></div></div>
-                                                                            <div class="options-description">No extra Cheese</div>
-                                                                                <div class="options-description">(R0,00)</div>
+                                                                            <div class="options-description mode-text">No extra Cheese</div>
+                                                                                <div class="options-description mode-text">(R0,00)</div>
                                                                     </div><!--select-->
                                                                 </div><!--options-container-->
                                                         </div><!--pizza choices block cheese-->
@@ -229,43 +289,43 @@
                                                                 <div class="options-container top1-chicken col-lg-2 col-md-4 col-sm-6"    id="pizza-topping1">
                                                                     <div class="select4 item name-btn "value="chicken" pricevalue="15">
                                                                         <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/chicken.svg"></div></div>
-                                                                            <div class="options-description">Chicken</div>
-                                                                                <div class="options-description">(R??,00)</div>
+                                                                            <div class="options-description mode-text">Chicken</div>
+                                                                                <div class="options-description mode-text">(R15,00)</div>
                                                                     </div><!--select-->
                                                                 </div><!--options-container-->
                                                             <div class="options-container top1-bacon col-lg-2 col-md-4 col-sm-6"    id="pizza-topping1">
                                                                 <div class="select4 item name-btn "value="bacon" pricevalue="10">
                                                                     <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/bacon.svg"></div></div>
-                                                                        <div class="options-description">Bacon</div>
-                                                                            <div class="options-description">(R??,00)</div>
+                                                                        <div class="options-description mode-text">Bacon</div>
+                                                                            <div class="options-description mode-text">(R10,00)</div>
                                                                 </div><!--select-->
                                                             </div><!--options-container-->
                                                                 <div class="options-container top1-peperoni col-lg-2 col-md-4 col-sm-6"    id="pizza-topping1">
                                                                     <div class="select4 item name-btn "value="peperoni" pricevalue="25">
                                                                         <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/peperoni.svg"></div></div>
-                                                                            <div class="options-description">Peperoni</div>
-                                                                                <div class="options-description">(R??,00)</div>
+                                                                            <div class="options-description mode-text">Peperoni</div>
+                                                                                <div class="options-description mode-text">(R25,00)</div>
                                                                     </div><!--select-->
                                                                 </div><!--options-container-->
                                                                     <div class="options-container top1-olives col-lg-2 col-md-4 col-sm-6"    id="pizza-topping1">
                                                                         <div class="select4 item name-btn "value="olives" pricevalue="18">
                                                                             <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/olives.svg"></div></div>
-                                                                                <div class="options-description">Olives</div>
-                                                                                    <div class="options-description">(R??,00)</div>
+                                                                                <div class="options-description mode-text">Olives</div>
+                                                                                    <div class="options-description mode-text">(R18,00)</div>
                                                                         </div><!--select-->
                                                                     </div><!--options-container-->
                                                                         <div class="options-container top1-onions col-lg-2 col-md-4 col-sm-6"    id="pizza-topping1">
                                                                             <div class="select4 item name-btn "value="onions" pricevalue="14">
                                                                                 <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/onion.svg"></div></div>
-                                                                                    <div class="options-description">Onions</div>
-                                                                                        <div class="options-description">(R??,00)</div>
+                                                                                    <div class="options-description mode-text">Onions</div>
+                                                                                        <div class="options-description mode-text">(R14,00)</div>
                                                                             </div><!--select-->
                                                                         </div><!--options-container-->
                                                                             <div class="options-container top1-mushroom col-lg-2 col-md-4 col-sm-6"    id="pizza-topping1">
                                                                                 <div class="select4 item name-btn "value="mushroom" pricevalue="12">
                                                                                     <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/mushroom.svg"></div></div>
-                                                                                        <div class="options-description">Mushroom</div>
-                                                                                            <div class="options-description">(R??,00)</div>
+                                                                                        <div class="options-description mode-text">Mushroom</div>
+                                                                                            <div class="options-description mode-text">(R12,00)</div>
                                                                                 </div><!--select-->
                                                                             </div><!--options-container-->
                                             </div><!--pizza choices block top1-->
@@ -273,43 +333,43 @@
                                                     <div class="options-container top2-chicken col-lg-2 col-md-4 col-sm-6"    id="pizza-topping2">
                                                         <div class="select5 item "value="chicken" pricevalue="15">
                                                             <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/chicken.svg"></div></div>
-                                                                <div class="options-description">Chicken</div>
-                                                                    <div class="options-description">(R??,00)</div>
+                                                                <div class="options-description mode-text">Chicken</div>
+                                                                    <div class="options-description mode-text">(R15,00)</div>
                                                         </div><!--select-->
                                                     </div><!--options-container-->
                                                         <div class="options-container top2-bacon col-lg-2 col-md-4 col-sm-6"   id="pizza-topping2">
                                                             <div class="select5 item "value="bacon" pricevalue="10">
                                                                 <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/bacon.svg"></div></div>
-                                                                    <div class="options-description">Bacon</div>
-                                                                        <div class="options-description">(R??,00)</div>
+                                                                    <div class="options-description mode-text">Bacon</div>
+                                                                        <div class="options-description mode-text">(R10,00)</div>
                                                             </div><!--select-->
                                                         </div><!--options-container-->
                                                             <div class="options-container top2-peperoni col-lg-2 col-md-4 col-sm-6"   id="pizza-topping2">
                                                                 <div class="select5 item "value="peperoni" pricevalue="25">
                                                                     <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/peperoni.svg"></div></div>
-                                                                        <div class="options-description">Peperoni</div>
-                                                                            <div class="options-description">(R??,00)</div>
+                                                                        <div class="options-description mode-text">Peperoni</div>
+                                                                            <div class="options-description mode-text">(R25,00)</div>
                                                                 </div><!--select-->
                                                             </div><!--options-container-->
                                                                 <div class="options-container top2-olives col-lg-2 col-md-4 col-sm-6"   id="pizza-topping2">
                                                                     <div class="select5 item "value="olives" pricevalue="18">
                                                                         <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/olives.svg"></div></div>
-                                                                            <div class="options-description">Olives</div>
-                                                                                <div class="options-description">(R??,00)</div>
+                                                                            <div class="options-description mode-text">Olives</div>
+                                                                                <div class="options-description mode-text">(R18,00)</div>
                                                                     </div><!--select-->
                                                                 </div><!--options-container-->
                                                                     <div class="options-container top2-onions col-lg-2 col-md-4 col-sm-6"   id="pizza-topping2">
                                                                         <div class="select5 item "value="onions" pricevalue="14">
                                                                             <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/onion.svg"></div></div>
-                                                                                <div class="options-description">Onions</div>
-                                                                                    <div class="options-description">(R??,00)</div>
+                                                                                <div class="options-description mode-text">Onions</div>
+                                                                                    <div class="options-description mode-text">(R14,00)</div>
                                                                         </div><!--select-->
                                                                     </div><!--options-container-->
                                                                         <div class="options-container top2-mushroom col-lg-2 col-md-4 col-sm-6"   id="pizza-topping2">
                                                                             <div class="select5 item "value="mushroom" pricevalue="12">
                                                                                 <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/mushroom.svg"></div></div>
-                                                                                    <div class="options-description">Mushroom</div>
-                                                                                        <div class="options-description">(R??,00)</div>
+                                                                                    <div class="options-description mode-text">Mushroom</div>
+                                                                                        <div class="options-description mode-text">(R12,00)</div>
                                                                             </div><!--select-->
                                                                         </div><!--options-container-->
                                                 </div><!--pizza choices block top2-->
@@ -317,43 +377,43 @@
                                                         <div class="options-container top3-chicken col-lg-2 col-md-4 col-sm-6"   id="pizza-topping3">
                                                             <div class="select6 item "value="chicken" pricevalue="15">
                                                                 <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/chicken.svg"></div></div>
-                                                                    <div class="options-description">Chicken</div>
-                                                                        <div class="options-description">(R??,00)</div>
+                                                                    <div class="options-description mode-text">Chicken</div>
+                                                                        <div class="options-description mode-text">(R15,00)</div>
                                                             </div><!--select-->
                                                         </div><!--options-container-->
                                                             <div class="options-container top3-bacon col-lg-2 col-md-4 col-sm-6"    id="pizza-topping3">
                                                                 <div class="select6 item "value="bacon" pricevalue="10">
                                                                     <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/bacon.svg"></div></div>
-                                                                        <div class="options-description">Bacon</div>
-                                                                            <div class="options-description">(R??,00)</div>
+                                                                        <div class="options-description mode-text">Bacon</div>
+                                                                            <div class="options-description mode-text">(R10,00)</div>
                                                                 </div><!--select-->
                                                             </div><!--options-container-->
                                                                 <div class="options-container top3-peperoni col-lg-2 col-md-4 col-sm-6"    id="pizza-topping3">
                                                                     <div class="select6 item "value="peperoni" pricevalue="25">
                                                                         <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/peperoni.svg"></div></div>
-                                                                            <div class="options-description">Peperoni</div>
-                                                                                <div class="options-description">(R??,00)</div>
+                                                                            <div class="options-description mode-text">Peperoni</div>
+                                                                                <div class="options-description mode-text">(R25,00)</div>
                                                                     </div><!--select-->
                                                                 </div><!--options-container-->
                                                                     <div class="options-container top3-olives col-lg-2 col-md-4 col-sm-6"    id="pizza-topping3">
                                                                         <div class="select6 item "value="olives" pricevalue="18">
                                                                             <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/olives.svg"></div></div>
-                                                                                <div class="options-description">Olives</div>
-                                                                                    <div class="options-description">(R??,00)</div>
+                                                                                <div class="options-description mode-text">Olives</div>
+                                                                                    <div class="options-description mode-text">(R18,00)</div>
                                                                         </div><!--select-->
                                                                     </div><!--options-container-->
                                                                         <div class="options-container top3-onions col-lg-2 col-md-4 col-sm-6"   id="pizza-topping3">
                                                                             <div class="select6 item "value="onions" pricevalue="14">
                                                                                 <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/onion.svg"></div></div>
-                                                                                    <div class="options-description">Onions</div>
-                                                                                        <div class="options-description">(R??,00)</div>
+                                                                                    <div class="options-description mode-text">Onions</div>
+                                                                                        <div class="options-description mode-text">(R14,00)</div>
                                                                             </div><!--select-->
                                                                         </div><!--options-container-->
                                                                             <div class="options-container top3-mushroom col-lg-2 col-md-4 col-sm-6"   id="pizza-topping3">
                                                                                 <div class="select6 item "value="mushroom" pricevalue="12">
                                                                                     <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/mushroom.svg"></div></div>
-                                                                                        <div class="options-description">Mushroom</div>
-                                                                                            <div class="options-description">(R??,00)</div>
+                                                                                        <div class="options-description mode-text">Mushroom</div>
+                                                                                            <div class="options-description mode-text">(R12,00)</div>
                                                                                 </div><!--select-->
                                                                             </div><!--options-container-->
                                                     </div><!--pizza choices block top3-->
@@ -361,43 +421,43 @@
                                                             <div class="options-container top4-chicken col-lg-2 col-md-4 col-sm-6"   id="pizza-topping4">
                                                                 <div class="select7 item "value="chicken" pricevalue="15" >
                                                                     <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/chicken.svg"></div></div>
-                                                                        <div class="options-description">Chicken</div>
-                                                                            <div class="options-description">(R??,00)</div>
+                                                                        <div class="options-description mode-text">Chicken</div>
+                                                                            <div class="options-description mode-text">(R15,00)</div>
                                                                 </div><!--select-->
                                                             </div><!--options-container-->
                                                                 <div class="options-container top4-bacon col-lg-2 col-md-4 col-sm-6"   id="pizza-topping4">
                                                                     <div class="select7 item "value="bacon" pricevalue="10" >
                                                                         <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/bacon.svg"></div></div>
-                                                                            <div class="options-description">Bacon</div>
-                                                                                <div class="options-description">(R??,00)</div>
+                                                                            <div class="options-description mode-text">Bacon</div>
+                                                                                <div class="options-description mode-text">(R10,00)</div>
                                                                     </div><!--select-->
                                                                 </div><!--options-container-->
                                                                     <div class="options-container top4-peperoni col-lg-2 col-md-4 col-sm-6"    id="pizza-topping4">
                                                                         <div class="select7 item "value="peperoni" pricevalue="25">
                                                                             <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/peperoni.svg"></div></div>
-                                                                                <div class="options-description">Peperoni</div>
-                                                                                    <div class="options-description">(R??,00)</div>
+                                                                                <div class="options-description mode-text">Peperoni</div>
+                                                                                    <div class="options-description mode-text">(R25,00)</div>
                                                                         </div><!--select-->
                                                                     </div><!--options-container-->
                                                                         <div class="options-container top4-olives col-lg-2 col-md-4 col-sm-6"    id="pizza-topping4">
                                                                             <div class="select7 item "value="olives" pricevalue="18">
                                                                                 <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/olives.svg"></div></div>
-                                                                                    <div class="options-description">Olives</div>
-                                                                                        <div class="options-description">(R??,00)</div>
+                                                                                    <div class="options-description mode-text">Olives</div>
+                                                                                        <div class="options-description mode-text">(R18,00)</div>
                                                                             </div><!--select-->
                                                                         </div><!--options-container-->
                                                                             <div class="options-container top4-onions col-lg-2 col-md-4 col-sm-6"    id="pizza-topping4">
                                                                                 <div class="select7 item "value="onions" pricevalue="14">
                                                                                     <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/onion.svg"></div></div>
-                                                                                        <div class="options-description">Onions</div>
-                                                                                            <div class="options-description">(R??,00)</div>
+                                                                                        <div class="options-description mode-text">Onions</div>
+                                                                                            <div class="options-description mode-text">(R14,00)</div>
                                                                                 </div><!--select-->
                                                                             </div><!--options-container-->
-                                                                                <div class="options-container top3-mushroom col-lg-2 col-md-4 col-sm-6"    id="pizza-topping4">
+                                                                                <div class="options-container top4-mushroom col-lg-2 col-md-4 col-sm-6"    id="pizza-topping4">
                                                                                     <div class="select7 item "value="mushroom" pricevalue="12">
                                                                                         <div class="options-img"><div class="size-img"><img class="icon-img" src="./assets/mushroom.svg"></div></div>
-                                                                                            <div class="options-description">Mushroom</div>
-                                                                                                <div class="options-description">(R??,00)</div>
+                                                                                            <div class="options-description mode-text">Mushroom</div>
+                                                                                                <div class="options-description mode-text">(R12,00)</div>
                                                                                     </div><!--select-->
                                                                                 </div><!--options-container-->
                                                                                     </div><!--pizza choices block top4-->
@@ -405,12 +465,13 @@
                                                                                             <div class="pizza-container-space">
                                                                                                 
                                                                                             </div><!--pizza-container-space-->
-                                                                                                <div class="total-price"><h1 id="total-price">R0.00</h1></div><!--total price-->
+
+                                                                                            <div class="total-price "><h1 class="mode-text" id="total-price-rand">R</h1><h1 class="mode-text" id="total-price">0.00</h1></div><!--total price-->
                                                                                         </div><!--pizza info block-->
                         </div><!--pizza-customize-->
                             <div class="about-us">
-                                <h2 class="heading-h1"><span  class="red-line-about-us">About Our Space Pizza Association</span></h2>
-                                    <h3 class="website-description-text" style="font-family: 'Montserrat', sans-serif;">Planet pizza is an outer pizza shop with the attend of making the best pizza in the galaxy.<hr>
+                                <h2 class="heading-h1 mode-text"><span  class="red-line-about-us">About Our Space Pizza Association</span></h2>
+                                    <h3 class="website-description-text mode-text" style="font-family: 'Montserrat', sans-serif;">Planet pizza is an outer pizza shop with the attend of making the best pizza in the galaxy.<hr>
 
                                         Planet pizza was founded by Pieter Venter in the early twenty first century. Our pizza sauce is made from ripe space tomatoes pick in late August and early September and fresh packed with fresh basil. Our pizza dough is made in zero gravity using fine mild flour from spring wheat. To finish our pizza we use 100% whole milk from the milkyway to make mozzarella.<hr>
                                     
@@ -422,7 +483,7 @@
             <a class="navbar-brand" style="color:#ffffff; font-size: 16px; font-family: 'Montserrat', sans-serif;"><img src="./assets/logo.svg" width="75" height="75">Planet Pizza</a>  
         </div><!--well-->
             <div class="well col-4">
-                <h1 class="copyright">Copyright 2021-Term 1</h1>
+                <h1 class="copyright"> Pieter Venter 200054 Copyright 2021-Term 1</h1>
             </div><!--well-->
                 <div class="well col-4"><!--fix in kleiner screen-->
                     <a href="https://www.facebook.com/"><i class="fab fa-facebook-square fa-2x"></i></a> 
@@ -434,23 +495,6 @@
 </body>
 
 </html>
-
-
-
-
-<!--font kort ek nog 3 tipes-->
-
-<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
- jQuery library
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
- Popper JS 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
- Latest compiled JavaScript
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
-
 
 
 
